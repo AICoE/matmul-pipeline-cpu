@@ -1,4 +1,4 @@
-# Tekton Pipeline for a Sample Cuda Code on Openshift
+# Tekton Pipeline for a Sample Cuda Code on Openshift that runs on CPU hardware
 A tekton pipeline that will build the image from Dockerfile, push the image to quay registry, pull that image and run the cuda code on CPU.
 
 Cuda code that is used here is the matrix multiplier one that was written by [thoth](https://github.com/thoth-station/performance.git) team. Part of the pipeline yamls were adopted from [AICoE](https://github.com/AICoE/mlperf-tekton/tree/master/object_detection).
